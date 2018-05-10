@@ -1,0 +1,5 @@
+create table pluginlibrary(pIndex int(100) Auto_Increment, Description char(200));
+
+create table pluginlog(Entry INT(100), pIndex INT(100));
+
+create table webdata(Entry INT(220) Auto_Increment Prymary Key, BrowserCN char(225), BrowserName(225), BrowserVersion char(225), CookiesEnabled char(225), Platform char(225), UserAgentHeader char(225), UserAgentLanguage char(225), BrowserLanguage char(225), BrowserEngineName char(225), TimeZone char(225), LocalStorageUse char(225), SessionStorageUse char(225), WebGLVendor char(225), TotalPlugins INT(200), ScreenHeight INT(200), ScreenWidth INT(225));
